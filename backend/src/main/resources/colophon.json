@@ -1,0 +1,182 @@
+[
+  {
+    "name": "React",
+    "techStack": "FRONTEND",
+    "description": "React is Sonatype's baseline front end framework. All future front end development at Sonatype should take place using React.",
+    "links": [
+      {
+        "title": "ReactJS website",
+        "url": "https://reactjs.org/"
+      }
+
+    ]
+  },
+  {
+    "name": "Sonatype React Shared Components",
+    "techStack": "FRONTEND",
+    "description": "The sample application imports Sonatype's own OSS React Shared Components. This allows us to take advantage of commonly developed and tested components and styles which also share Sonatype's current UI/UX.",
+    "links": [
+      {
+        "title": "Github Repo for React Shared Components",
+        "url": "https://github.com/sonatype/sonatype-react-shared-components"
+      },
+      {
+        "title": "Live Gallery of Components",
+        "url": "https://cloudfront-auth.data.sonatype.com/"
+      },
+      {
+        "title": "#react-components on Slack",
+        "url": "https://sonatype.slack.com/archives/CJUF9G7T2"
+      }
+    ]
+  },
+  {
+    "name": "Webpack",
+    "techStack": "FRONTEND",
+    "description": "Webpack is a javascript module bundler. It takes modules with dependencies and generates static assets representing those modules",
+    "links": [
+      {
+        "title": "Oficial Docs",
+        "url": "https://webpack.js.org/concepts/"
+      }
+    ]
+  },
+  {
+    "name": "TypeScript",
+    "techStack": "FRONTEND",
+    "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. The SAB frontend build is configured to support projects written in both TypeScript and JavaScript. The TypeScript compiler is used for transpiling both languages (and their React JSX/TSX variants) into ES2018 JavaScript.",
+    "links": [
+      {
+        "title": "Official Documentation",
+        "url": "https://www.typescriptlang.org/"
+      }
+    ]
+  },
+  {
+    "name": "Redux",
+    "techStack": "FRONTEND",
+    "description": "Open-source library for managing application state.",
+    "links": [
+      {
+        "title": "Official Documentation",
+        "url": "https://redux.js.org/introduction/getting-started"
+      },
+      {
+        "title": "Redux Architecture Overview",
+        "url": "https://redux.js.org/basics/data-flow"
+      }
+    ]
+  },
+  {
+    "name": "Jest",
+    "techStack": "FRONTEND",
+    "description": "Testing Framework with a focus on simplicity.",
+    "links": [
+      {
+        "title": "Official Docs",
+        "url": "https://jestjs.io/"
+      }
+    ]
+  },
+  {
+    "name": "Java 11",
+    "techStack": "BACKEND",
+    "description": "Latest official Java LTS (Long Term Support) version. Using a LTS version ensures stability and Java 11 incorporates and refines the functionality that made Java 8 more attractive.",
+    "links": [
+      {
+        "title": "OpenJDK11 website",
+        "url": "https://openjdk.java.net/projects/jdk/11/"
+      }
+    ]
+  },
+  {
+    "name": "Maven 3",
+    "techStack": "BACKEND",
+    "description": "Stable build system for Java projects with support for Java 11. Provides great compatibility with Sonatype's tooling",
+    "links": [
+      {
+        "title": "Maven Homepage",
+        "url": "https://maven.apache.org/"
+      }
+    ]
+  },
+  {
+    "name": "Spring Boot / Spring",
+    "techStack": "BACKEND",
+    "description": "Provides basic arquetypes for maven configurations which removes the need to write a lot of boilerplate to get the basic structure for a maven project. Spring Facilitates tasks for web development and deployment like resource definition and serving of said resources.",
+    "links": [
+      {
+        "title": "Springboot Homepage",
+        "url": "https://spring.io/projects/spring-boot"
+      },
+      {
+        "title": "Springboot Initializer",
+        "url": "https://start.spring.io"
+      },
+      {
+        "title": "Spring's Home",
+        "url": "https://spring.io/"
+      },
+      {
+        "title": "Spring Guides",
+        "url": "https://spring.io/guides"
+      }
+    ]
+  },
+  {
+    "name": "Lombok",
+    "techStack": "BACKEND",
+    "description": "Replaces common boiler plate code with simple annotations, helping reduce filesizes, time to code and improving readability.",
+    "links": [
+      {
+        "title": "Project Lombok Home",
+        "url": "https://projectlombok.org/"
+      },
+      {
+        "title": "VSCode Plugin",
+        "url": "https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok"
+      }
+    ]
+  },
+  {
+    "name": "Actuator + Prometheus",
+    "techStack": "BACKEND",
+    "description": "Provides easy to configure metrics and monitoring, plus a basic UI to analyse them.",
+    "links": [
+      {
+        "title": "Spring's guide to actuator",
+        "url": "https://spring.io/guides/gs/actuator-service/"
+      },
+      {
+        "title": "Prometheus Home",
+        "url": "https://prometheus.io/"
+      }
+    ]
+  },
+  {
+    "name": "Gson",
+    "techStack": "BACKEND",
+    "description": "Used for small json deserialization. If you need to handle big json files consider using Jackson or other tools.",
+    "links": [
+      {
+        "title": "Gson's repo location",
+        "url": "https://search.maven.org/artifact/com.google.code.gson/gson/2.8.5/jar"
+      }
+    ]
+  },
+  {
+    "name": "Docker",
+    "techStack": "BACKEND",
+    "description": "Docker is a containerization framework used to make deploying applications in sanitized environments super easy. We are also using docker-compose to spin up your services easily.",
+    "links": [
+      {
+        "title": "Docker's Home",
+        "url": "https://docker.com"
+      },
+      {
+        "title": "Docker Compose Documentation",
+        "url": "https://docs.docker.com/compose/compose-file/"
+      }
+    ]
+  }
+]

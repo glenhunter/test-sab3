@@ -1,0 +1,6 @@
+frontendhost: "http://localhost:8044,http://0.0.0.0:8044,http://localhost"
+server:
+    port: 8080
+management:
+    endpoints:
+        enabled-by-default: false

@@ -1,0 +1,30 @@
+/**
+ * Copyright (c) 2020-present Sonatype, Inc. All rights reserved.
+ * "Sonatype" is a trademark of Sonatype, Inc.
+ */
+@import '~@sonatype/react-shared-components/scss-shared/nx-container-helpers';
+
+.sab-sidebar-navigation-links {
+  @include container-vertical();
+}
+
+.sab-sidebar-navigation__group {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.sab-sidebar-navigation__link {
+  margin: var(--nx-spacing-2x) 0;
+
+  .nx-text-link {
+    color: var(--nx-swatch-grey-05);
+  }
+}
+
+.sab-sidebar-navigation__note {
+  margin: var(--nx-spacing-2x) 0;
+  font-size: 12px;
+  font-style: italic;
+  color: #666;
+}
+

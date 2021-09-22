@@ -1,0 +1,2 @@
+Copyright (c) ${project.inceptionYear}-present Sonatype, Inc. All rights reserved.
+"Sonatype" is a trademark of Sonatype, Inc.

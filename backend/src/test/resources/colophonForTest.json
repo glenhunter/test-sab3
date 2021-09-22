@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Foo",
+    "techStack": "FRONTEND",
+    "description": "Foo bar",
+    "links": [
+      {
+        "title": "FooSite",
+        "url": "https://foo.example.com/"
+      }
+
+    ]
+  },
+  {
+    "name": "Acme",
+    "techStack": "BACKEND",
+    "description": "Supplies for catching cartoon birds",
+    "links": [
+      {
+        "title": "Anvils",
+        "url": "https://acme.example.com/anvil"
+      },
+      {
+        "title": "Dynamite",
+        "url": "https://acme.example.com/kaboom"
+      }
+    ]
+  }
+]

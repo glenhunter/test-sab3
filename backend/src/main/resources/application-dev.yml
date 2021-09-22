@@ -1,0 +1,17 @@
+frontendhost: "http://localhost:8044,http://0.0.0.0:8044,http://localhost"
+server:
+    port: 8080
+management:
+    endpoints:
+        web:
+            exposure:
+                include: "*"
+    endpoint:
+        prometheus:
+            enabled: true
+        metrics:
+            enabled: true
+    metrics:
+        export:
+            prometheus:
+                enabled: true
